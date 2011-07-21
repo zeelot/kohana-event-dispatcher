@@ -6,7 +6,7 @@ class Kohana_Event implements Interface_Event {
 	protected $_arguments = array();
 	protected $_propagation_stopped = FALSE;
 
-	public function __construct($subject = NULL, array $arguments = array())
+	public function __construct( & $subject = NULL, array $arguments = array())
 	{
 		$this->_subject = $subject;
 		$this->_arguments = $arguments;
