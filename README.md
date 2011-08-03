@@ -4,6 +4,7 @@ A simple events-system for Kohana 3.x.
 
 - **Author**: Jeremy Lindblom ([jeremeamia](https://github.com/jeremeamia))
 - **Version**: 0.1
+- **Compatible Kohana Version(s):** 3.1.x
 
 ## Disclaimer
 
