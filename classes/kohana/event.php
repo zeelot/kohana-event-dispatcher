@@ -8,11 +8,11 @@ class Kohana_Event implements Interface_Event {
 
 	public function __construct( & $subject = NULL, array $arguments = array())
 	{
-		$this->_subject = $subject;
+		$this->_subject =& $subject;
 		$this->_arguments = $arguments;
 	}
 
-	public function get_subject()
+	public function & get_subject()
 	{
 		return $this->_subject;
 	}
