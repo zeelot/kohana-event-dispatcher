@@ -63,7 +63,7 @@ class Kohana_Event_Dispatcher implements Interface_Dispatcher {
 		return $value;
 	}
 
-	public function load_subscribers($directory = 'subscriber')
+	public function load_subscribers($directory = 'Subscriber')
 	{
 		// Figure out the directory we are going to search in
 		$base_dir = 'classes/';
